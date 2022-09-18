@@ -2,7 +2,12 @@
   package="com.tagcountergame">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+<!--    this allows NFC option-->
     <uses-permission android:name="android.permission.NFC" />
+
+<!--    allows to devices that has nfc hardware-->
+    <uses-feature android:name="android.hardware.nfc" android:required="ture"/>
 
     <application
       android:name=".MainApplication"

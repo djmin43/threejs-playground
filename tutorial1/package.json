@@ -1,0 +1,8 @@
+{
+  "name": "threejs-tutorial-1",
+  "version": "1.0.0",
+  "description": "this is a tutorial for three js, in vanilla",
+  "main": "index.js",
+  "author": "min dongjoon",
+  "license": "MIT"
+}

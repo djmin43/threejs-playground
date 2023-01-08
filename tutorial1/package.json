@@ -4,5 +4,15 @@
   "description": "this is a tutorial for three js, in vanilla",
   "main": "index.js",
   "author": "min dongjoon",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "wds --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "three": "^0.148.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.35"
+  }
 }
